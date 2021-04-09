@@ -24,4 +24,12 @@ app.post('/save', async (req, res) => {
 
 });
 
-app.listen(8282)
+http.listen(process.env.PORT || 8181, (erro) => {
+
+    if(erro) {
+        return console.log(`Erro: ${erro}`);
+    }
+
+    return console.log(`Servidor iniciado`);
+
+});
