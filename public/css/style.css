@@ -1,0 +1,11 @@
+.esconder {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+#semMensagem {
+    display: none;
+}
