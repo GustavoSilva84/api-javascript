@@ -2,7 +2,7 @@ let ul = document.querySelector('#ul');
 let carregando = document.querySelector('#carregando');
 let nome = localStorage.getItem('nome');
 let semMensagem = document.querySelector('#semMensagem');
-let url = 'http://localhost:8282';
+let url = 'https://api-javascript.herokuapp.com';
 
 function buscarNome() {
 
