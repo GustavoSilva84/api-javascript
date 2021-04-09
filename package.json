@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ""
   },
-  "author": "",
+  "author": "node server.js",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
